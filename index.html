@@ -16,6 +16,18 @@
 </head>
 
 <body>
+  <header>
+    <div class="header_main">
+      <div class="logo">
+        <img src="./logo.png" alt="">
+        <p  style="margin: 0;">Quiz Online</p>
+      </div>
+      <div class="info_user">
+        <div class="name_user">Nguyen Van A</div>
+        <img src="./img/user_icon.png" alt="">
+      </div>
+    </div>
+  </header>
   <div class="site-content-wrapper">
     <div class="content-header pb-0 gray-bg">
       <div class="container pb-0">
@@ -26,12 +38,12 @@
                 <div>
                   <span class="account-profile-img md">
 
-                    <img src="/static/img/user_icon.png" alt="NguoiDung">
+                    <img src="./img/user_icon.png" alt="NguoiDung">
 
                   </span>
                 </div>
                 <div class="text-center">
-                  NguoiDung
+                  Nguyen Van A
                 </div>
               </div>
               <div class="divider sm"></div>
@@ -42,24 +54,24 @@
                 <table class="user-target-info-table table table-borderless table-sm table-xs mb-0">
                   <tbody>
                     <tr class="user-target-text-sm">
-                      <td style="width:110px">Ngày dự thi: none</td>
+                      <td style="width:110px">Ngày dự thi:</td>
                       <td style="width:100px">
                         <span class="user-target-text-value">-</span>
-                        <a data-toggle="modal" data-target="#site-modal-md"
-                          onclick="window.load_jqhtml(this, '#site-modal-md-content')" href="#"
-                          data-href="/targetscore/update/207417/?view=clean"><span class="far fa-pen"></span></a>
+                        <span>20/06/2023</span>
                       </td>
                     </tr>
                     <tr class="user-target-text-sm">
                       <td>Tới kỳ thi:</td>
                       <td>
-                        <span class="user-target-text-value">0 ngày</span>
+                        <span class="user-target-text-value">-</span>
+                        <span class="user-target-text-value">13 ngày</span>
                       </td>
                     </tr>
                     <tr class="user-target-text-sm">
                       <td>Điểm mục tiêu:</td>
                       <td>
                         <span class="user-target-text-value">-</span>
+                        <span class="user-target-text-value">650</span>
                       </td>
                     </tr>
                   </tbody>
@@ -82,71 +94,47 @@
             <div class="test-exams">
               <ul class="nav nav-pills flex-wrap">
                 <li class="nav-item w-auto">
-                  <a class="nav-link active" href="/tests/">Tất cả</a>
+                  <a class="nav-link active" href="#">Tất cả</a>
                 </li>
 
                 <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/ielts/">IELTS Academic</a>
+                  <a class="nav-link " href="#">IELTS Academic</a>
                 </li>
 
                 <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/ielts-general/">IELTS General</a>
+                  <a class="nav-link " href="#">IELTS General</a>
                 </li>
 
                 <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/toeic/">TOEIC</a>
+                  <a class="nav-link " href="#">TOEIC</a>
                 </li>
 
                 <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/hsk-1/">HSK 1</a>
+                  <a class="nav-link " href="#">Tiếng Anh THPTQG</a>
                 </li>
 
                 <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/hsk-2/">HSK 2</a>
+                  <a class="nav-link " href="#">Toán THPTQG</a>
                 </li>
 
                 <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/hsk-3/">HSK 3</a>
+                  <a class="nav-link " href="#">Sinh học THPTQG</a>
                 </li>
 
                 <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/hsk-4/">HSK 4</a>
+                  <a class="nav-link " href="#">Hóa học THPTQG</a>
                 </li>
 
                 <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/hsk-5/">HSK 5</a>
+                  <a class="nav-link " href="#">Vật lý THPTQG</a>
                 </li>
 
                 <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/hsk-6/">HSK 6</a>
+                  <a class="nav-link " href="#">NEW SAT</a>
                 </li>
 
                 <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/tieng-anh-thptqg/">Tiếng Anh THPTQG</a>
-                </li>
-
-                <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/toan-thptqg/">Toán THPTQG</a>
-                </li>
-
-                <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/sinh-hoc-thptqg/">Sinh học THPTQG</a>
-                </li>
-
-                <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/hoa-hoc-thptqg/">Hóa học THPTQG</a>
-                </li>
-
-                <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/vat-ly-thptqg/">Vật lý THPTQG</a>
-                </li>
-
-                <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/sat/">NEW SAT</a>
-                </li>
-
-                <li class="nav-item w-auto">
-                  <a class="nav-link " href="/tests/act/">ACT</a>
+                  <a class="nav-link " href="#">ACT</a>
                 </li>
 
               </ul>
@@ -286,7 +274,7 @@
         </div>
       </div>
     </div>
-    <div class="footer-wrapper">
+    <!-- <div class="footer-wrapper">
       <div class="footer-container">
           <footer>
               <div class="fb-like mb-2">
@@ -294,7 +282,7 @@
               </div>
               <div class="row">
                   <div class="col-sm-12 col-md grow0">
-                      <a href="/"><img class="mb-2" src="/static/img/logo_full_sm.png" alt="" height="30"></a>
+                      <a href="/"><img class="mb-2" src="./logo.png" alt="" height="30"></a>
                       <small class="d-block mb-2">© 2021</small>
                       <div class="site-socials">
                           <a target="_blank" href=""><span class="social-link fab fa-facebook-square"></span></a>
@@ -364,7 +352,7 @@
               </div>
           </footer>
       </div>
-  </div>
+  </div> -->
   </div>
 <script src="AddTest.js"></script>
 </body>
