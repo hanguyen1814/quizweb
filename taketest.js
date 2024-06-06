@@ -138,7 +138,11 @@ const quiz = {
       id: "test",
       scores: score,
       timeSubmit: new Date().toLocaleString(),
+      ques: JSON.stringify(questions), // convert object to string
+      listSub: JSON.stringify(listResult), // convert object to string
+      listRes: JSON.stringify(listResult),
     };
+    console.log(data_send);
     this.send_data(data_send);
   },
   handleQuestionList: function () {
